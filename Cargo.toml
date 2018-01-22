@@ -1,0 +1,23 @@
+[package]
+name = "os_error"
+version = "0.1.0"
+authors = ["Simon Wörner <git@simon-woerner.de>"]
+license = "MIT/Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/SWW13/os_error-rs"
+documentation = "https://docs.rs/os_error"
+homepage = "https://github.com/SWW13/os_error-rs"
+description = """
+Struct `OsError` represents only the OS error part of `std::io::Error`.
+
+`OsError` implements `Clone`, `Copy`, `PartialEq`, `PartialOrd`, `Eq`, `Ord`, `Display`, `Debug`, `Hash`, `TryFrom<std::io::Error>` and `Into<std::io::Error>`.
+"""
+categories = ["data-structures"]
+keywords = ["error", "os"]
+
+[features]
+default = []
+nightly = []
+
+[badges]
+travis-ci = { repository = "SWW13/os_error-rs" }

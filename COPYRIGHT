@@ -1,0 +1,16 @@
+Short version for non-lawyers:
+
+os_error is dual-licensed under Apache 2.0 and MIT
+terms.
+
+
+Longer version:
+
+Copyright (c) for portions of os_error are held by The Rust Project
+Developers, 2012-2014 as part of The Rust Standard Library.
+All other copyright for os_error are held by Simon Wörner, 2018.
+
+Except as otherwise noted in individual files, os_error is
+licensed under the Apache License, Version 2.0 <LICENSE-APACHE> or
+<http://www.apache.org/licenses/LICENSE-2.0> or the MIT license
+<LICENSE-MIT> or <http://opensource.org/licenses/MIT>, at your option.

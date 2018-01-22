@@ -1,0 +1,24 @@
+language: rust
+sudo: false
+
+matrix:
+  include:
+    - rust: 1.15.0
+    - rust: stable
+    - rust: stable
+      os: osx
+    - rust: beta
+    - rust: nightly
+      script:
+        - cargo test
+        - cargo test --all-features
+        - cargo doc --no-deps
+        - cargo doc --no-deps --all-features
+
+script:
+  - cargo test
+  - cargo doc --no-deps
+
+notifications:
+  email:
+    on_success: never
